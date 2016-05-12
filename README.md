@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Jebengas - Skeleton
 -------------------
 
@@ -44,8 +43,3 @@ License & copyright
 -------------------
 
 Jebengas is Copyright &copy; 2015 [Alexandre Azevedo](https://github.com/alexndreazevedo) and licensed under the Apache License 2.0. All rights not explicitly granted in the Apache License 2.0 are reserved. See the included LICENSE file for more details.
-
-=======
-# node-skeleton
-Application skeleton for Node + ES6 + Express + Jade + Sass + Gulp + Bower
->>>>>>> aeb25a44f4455b79c65d5fd00aa2e6742b062683
