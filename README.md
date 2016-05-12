@@ -6,10 +6,14 @@ Application skeleton for [Jade](http://jade-lang.com) + [ES6](https://developer.
 
 ### Quick Start
 
-You'll need the following softwares installed on your computer and all dependencies are on PATH:
+You'll need the following softwares installed on your computer:
 * [Git](https://git-scm.com)
 * [Node](https://nodejs.org)
-* [Npm](https://www.npmjs.com) _(It often comes with Node installer)_
+* [Npm](https://www.npmjs.com)
+
+NB: _(Usually Npm is installed with Node)_
+
+__ALL DEPENDENCIES MUST BE ADDED TO PATH__
 
 1. Clone the repository:
 
