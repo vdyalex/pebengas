@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Jebengas
+    base(href='/')
+
+    //- Meta
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no')
+
+    //- Styles
+    link(rel='stylesheet', href='/styles/vendor.css')
+    link(rel='stylesheet', href='/styles/app.css')
+
+  body
+    block container
+      div.container
+
+    block scripts
+      script(src='/scripts/vendor.js')
+      script(src='/scripts/app.js')
