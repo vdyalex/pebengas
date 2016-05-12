@@ -11,33 +11,31 @@ You'll need the following softwares installed on your computer:
 * [Node](https://nodejs.org)
 * [Npm](https://www.npmjs.com)
 
-NB: _(Usually Npm is installed with Node)_
-
-__ALL DEPENDENCIES MUST BE ADDED TO PATH__
+> _Usually Npm is installed with Node._
+> __All dependencies must be added to PATH__
 
 1. Clone the repository:
 
-```
-$ git clone https://github.com/alexndreazevedo/jebengas.git
-$ cd jebengas
-```
+  ```
+  $ git clone https://github.com/alexndreazevedo/jebengas.git
+  $ cd jebengas
+  ```
 
 2. Install dependencies:
 
-```
-# Global installation of Gulp and Bower
-$ npm install -g gulp-cli bower
+  ```
+  # Global installation of Gulp and Bower
+  $ npm install -g gulp-cli bower
 
-# Install package dependencies
-$ npm install && bower install
-```
-
+  # Install package dependencies
+  $ npm install && bower install
+  ```
 
 3. Start application:
 
-```sh
-$ npm start
-```
+  ```sh
+  $ npm start
+  ```
 
 
 The application will be available at [localhost:3000](http://localhost:3000).
