@@ -23,7 +23,17 @@ let dest = {
   fonts       : _dest_ + '/fonts'
 };
 
+let browser = require('browser-sync');
+
 module.exports = {
+  path: {
+    root: {
+      app: _src_,
+      public: _dest_,
+      server: _server_,
+      gulp: _gulpfile_
+    }
+  },
   eslint: {
     src: [
       _gulpfile_,
@@ -94,5 +104,6 @@ module.exports = {
       dest.scripts + '/**/*.js'
     ],
     env: _env_
-  }
+  },
+  browser: browser.create()
 };

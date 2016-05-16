@@ -11,4 +11,4 @@ let tasks = [
   'scripts'
 ];
 
-gulp.task('default', sync.async(['eslint', tasks, 'server', 'watch'], 'default'));
+gulp.task('default', sync.async(['eslint', tasks, 'browser', 'watch']));
