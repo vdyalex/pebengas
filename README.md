@@ -7,36 +7,37 @@ Application skeleton for [Pug](http://jade-lang.com) + [ES6](https://developer.m
 ### Quick Start
 
 You'll need the following softwares installed on your computer:
-* [Git](https://git-scm.com)
-* [Node](https://nodejs.org)
-* [Npm](https://www.npmjs.com)
+* [Git](https://git-scm.com);
+* [Node](https://nodejs.org) with [Npm](https://www.npmjs.com);
 
 > _Usually Npm is installed with Node._
 
-> __All dependencies must be added to PATH__
+
+> __Make sure that all dependencies are added to PATH__
 
   1. Clone the repository:
 
-  ```
-  $ git clone https://github.com/alexndreazevedo/jebengas.git
-  $ cd jebengas
+  ```sh
+  $ git clone https://github.com/alexndreazevedo/pebengas.git
+  $ cd pebengas
   ```
 
   2. Install dependencies:
 
+  ```sh
+  # Run installer
+  $ npm install
   ```
-  # Global installation of Gulp and Bower
-  $ npm install -g gulp-cli bower
 
-  # Install package dependencies
-  $ npm install && bower install
-  ```
+  > The installer will set your environment with global ```gulp-cli``` and ```bower``` packages; in addition, it will run ```bower install``` afterwards.
 
   3. Start application:
 
   ```sh
   $ npm start
   ```
+
+  > It will open a window automatically. To avoid open the window, run ```$ gulp```
 
 
 The application will be available at [localhost:3000](http://localhost:3000).
